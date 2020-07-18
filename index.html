@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!-- Devoir de groupe SAYNA : Groupe 6 -->
+    <meta charset="utf-8"/>
+    <title>Inversion de texte</title>
+  	<link rel="stylesheet" type="text/css" href="css/style.css">    
+  </head>
+
+  <body>
+  <!-- Titre -->
+    <h1> Générateur d'inversion de texte </h1>
+  <!-- Explication du contenu et d'utilisation site -->
+    <p>
+        <span class="marge">Bienvenu dans notre site,</span> <br/>
+        Cette page est destinée à inverser le contenu d'un élement de type texte, numérique(excepté les élements graphiques) dans le sens contraire indiqué précédemment. Cela s'avère utile dans la gestion de texte crypté, création de mot de passe crypté et bien d'autres ... <br/>
+        Ceci dit, vous pouvez entrer le contenu dans la première boite de dialogue, puis appuyer sur "générer" pour avoir le contenu inversé apparaître dans la seconde boite. 
+    </p>
+  <!-- champ de visualiation et bouton -->
+  	<fieldset>
+      <input type="text" placeholder="Entrez Votre texte" id="texte" required="required"/>
+      <output id="renverser"> Résultat</output>
+      <br/><br/>
+      <button class="boutton" type="button" onclick="texte();">Générer</button>
+    </fieldset>
+
+  <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

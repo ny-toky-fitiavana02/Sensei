@@ -1,0 +1,75 @@
+body{
+	width: 100%;
+	margin : 0;
+	padding: 0;
+}
+
+h1{
+	position: relative;
+	text-align: center;
+	font-size: 35px;
+	color: blue;
+	margin: 25px;
+	padding: 5px;
+
+}
+
+p{
+	position : relative;
+	font-size: 1.2em;
+	line-height: 32px;
+	width: calc(100% - 20%);
+	margin-left: 10%;
+	padding: 5px;
+	text-align: justify; 
+	tab-size : 4;
+}
+
+.marge{
+	margin-left: 4em;
+}
+
+
+fieldset{
+	position: relative;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	border-radius: 10px;
+	border:10px solid white;
+	box-shadow:3px 5px 13px 10px #e0e0e0;
+	margin-bottom: 10px;
+
+}
+#texte{
+	position: relative;
+	float: left;
+	padding-left: 40px;
+	padding-bottom: 0;
+	width: 45%;
+	height: 200px;
+	border-radius: 10px;
+	box-shadow:6px 5px 13px 8px #e0e0e0;
+}
+.boutton{
+	 background-color: #4584f1;
+    border-radius: 7px;
+    margin: 5px;
+    width: 100px;
+    font-size: 15px;
+    color: #ffffff;
+    height: 33px;
+}
+#renverser{
+	position: relative;
+	float: right;
+	padding-left: 40px;
+	padding-top: 100px;
+	width: 45%;
+	height: 100px;
+	border-radius: 10px;
+	box-shadow:3px 5px 13px 8px #e0e0e0;
+	text-align: left;
+	color: red;	
+	opacity: 0.8;
+	}
